@@ -13,7 +13,7 @@ import java.util.TooManyListenersException;
 //@RequestMapping
 public class TimeEntryController {
 
-    @Autowired
+//    @Autowired
     private TimeEntryRepository timeEntryRepository;
 
     public TimeEntryController(TimeEntryRepository timeEntryRepository) {
